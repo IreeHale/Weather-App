@@ -1,12 +1,12 @@
-import React, { useState }from 'react';
-
-function App() {
+import React, {useState} from 'react'
+import './App.css'
 
 const apiKey = '3162758ae232875e7449531149e65a5e'
-const {weatherData, setWeatherData} = useState([{}])
-  return <div className="container">
-    <input className="input" placeholder="Enter City..." />
-  </div>
+const [weatherData, setWEatherData] = useState([{}])
+
+function App() {
+  return <div className="container"></div>;
 }
 
 export default App;
+
