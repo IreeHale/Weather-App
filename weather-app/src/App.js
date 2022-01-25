@@ -8,7 +8,7 @@ const [city, setCity] = useState("")
 
 const getWeather = (event) => {
   if(event.key === "Enter") {
-    fetch(`https://api.openweathermap.org/data/2.5/weather?id=${city}&appid=${apiKey}`).then(
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`).then(
       response => response.json()
     ).then(
       data => {
@@ -34,9 +34,9 @@ const getWeather = (event) => {
         </div>
       ): (
         <div>
-          <p></p>
-          <p></p>
-          <p></p>
+          <p>{weatherData.name}</p>
+          <p>{Math.floor(Math.round(weatherData.main.temp))} &deg;F</p>
+          <p>{weatherData.weather[0].main}</p>
         </div>
       )}
 
