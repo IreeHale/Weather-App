@@ -30,7 +30,7 @@ const getWeather = (event) => {
 
       {typeof weatherData.main === 'undefined' ? (
         <div>
-          <p>Welcome to weather app! Enter in a city to get the weather of.</p>
+          <p>Welcome to weather my app! Enter in a city to get the weather of.</p>
         </div>
       ): (
         <div className="weather-data">

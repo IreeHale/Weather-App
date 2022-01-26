@@ -1,19 +1,27 @@
+* {
+  background-color:lightseagreen;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: black;
   padding: 25px;
-  background-color:lightseagreen;
 }
 
 .input {
   padding: 10px;
   width: 80%;
   margin: auto;
-  border: 1px solid lightgrey;
+  border: 1px solid black;
   border-radius: 6px;
   font-size: 16
+}
+
+.input::placeholder {
+  color: black;
 }
 
 .input:focus {
