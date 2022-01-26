@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   padding: 25px;
+  background-color:lightseagreen;
 }
 
 .input {
@@ -28,17 +29,17 @@
 
 .city {
   font-size: 30px;
-  font-weight: 200;
+  font-weight: bold;
 }
 
 .temp {
   font-size: 90px;
   padding: 10px;
-  border: 1px solid lightgrey;
+  border: 1px solid black;
   border-radius: 12px;
 }
 
 .weather {
   font-size: 30px;
-  font-weight: 200;
+  font-weight: bold;
 }
