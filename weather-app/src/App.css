@@ -37,3 +37,8 @@
   border: 1px solid lightgrey;
   border-radius: 12px;
 }
+
+.weather {
+  font-size: 30px;
+  font-weight: 200;
+}
